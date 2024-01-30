@@ -17,3 +17,9 @@ seaborn==0.12.2
 statsmodels==0.13.5
 
 streamlit==1.21.0
+
+XlsxWriter==3.0.3
+
+tqdm==4.64.1
+
+
