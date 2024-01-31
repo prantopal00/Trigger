@@ -454,7 +454,7 @@ if page=="Triggers Data Preparation":
                 if want:
                     # button=st.button("**Download**")
                     # if button:
-                    if st.download_button("Download", label="Click here to download all files", key="download_all_button4", help="Right-click and 'Save link as...'"):
+                    if st.download_button("Download", label="Click here to download all  files", key="download_all_button4", help="Right-click and 'Save link as...'"):
 
                             # Overall
                             with pd.ExcelWriter(want_overall+".xlsx",engine='xlsxwriter') as want:
@@ -773,7 +773,7 @@ if page=="Append Files":
 
                     # button=st.button("**Download**")
                     # if button:
-                    if st.download_button("Download", label="Click here to download all files", key="download_all_button3", help="Right-click and 'Save link as...'"):
+                    if st.download_button("Download", label="Click here to download all files   ", key="download_all_button3", help="Right-click and 'Save link as...'"):
 
                             # Overall
                             with pd.ExcelWriter(want_overall+".xlsx",engine='xlsxwriter') as want:
@@ -829,7 +829,7 @@ if page=="Append Files":
 
                     # button=st.button("**Download**")
                     # if button:
-                    if st.download_button("Download", label="Click here to download all files", key="download_all_button1", help="Right-click and 'Save link as...'"):
+                    if st.download_button("Download", label="Click here to download all files  ", key="download_all_button1", help="Right-click and 'Save link as...'"):
 
                             # Overall
                             with pd.ExcelWriter(want_overall+".xlsx",engine='xlsxwriter') as want:
@@ -880,7 +880,7 @@ if page=="Append Files":
 
                     # button=st.button("**Download**")
                     # if button:
-                    if st.download_button("Download", label="Click here to download all files", key="download_all_button2", help="Right-click and 'Save link as...'"):
+                    if st.download_button("Download", label="Click here to download all files ", key="download_all_button2", help="Right-click and 'Save link as...'"):
 
                             # Overall
                             with pd.ExcelWriter(want_overall+".xlsx",engine='xlsxwriter') as want:
